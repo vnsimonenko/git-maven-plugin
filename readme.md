@@ -17,7 +17,9 @@ workingDir = ${project.basedir}/git-maven-plugin-working-dir/akka-stream/
 ```
 
 * If dependencies are not installed in the local repository you need to perform at the beginning:
+```
 mvn git-maven-plugin:git-maven-plugin:git
+```
 
 ### Example: ###
 ```
